@@ -173,5 +173,12 @@
     "site": "https://pool.jinxnet.xyz",
     "url": "https://pool.jinxnet.xyz/clash/proxies",
     "enabled": true
+  },
+  {
+    "id": 25,
+    "remarks": "yu-steven/openit",
+    "site": "https://github.com/yu-steven/openit",
+    "url": "https://dllx.tk/Openit-long",
+    "enabled": true
   }
 ]
