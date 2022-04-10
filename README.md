@@ -380,33 +380,32 @@
 </details>
 
 ### 所有节点
-合并节点总数: `7438`
+合并节点总数: `3445`
 [节点链接](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt)
 
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `56`
-- [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `218`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `164`
-- [freefq/free](https://github.com/freefq/free), 节点数量: `22`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `231`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `71`
+- [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `130`
+- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `194`
+- [freefq/free](https://github.com/freefq/free), 节点数量: `70`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `181`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
-- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `38`
+- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `78`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `59`
-- [ssrsub/ssr](https://github.com/ssrsub/ssr), 节点数量: `48`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `815`
+- [ssrsub/ssr](https://github.com/ssrsub/ssr), 节点数量: `40`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `859`
 - [umelabs/node.umelabs.dev](https://github.com/umelabs/node.umelabs.dev), 节点数量: `5`
-- [git-yusteven/openit](https://github.com/git-yusteven/openit), 节点数量: `3264`
+- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `0`
 - [iwxf/free-v2ray](https://github.com/iwxf/free-v2ray), 节点数量: `14`
-- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `147`
-- [Thanos8053/v2ray](https://github.com/Thanos8053/v2ray), 节点数量: `0`
-- [电报群分享:https://t.me/abc999222/392133](https://t.me/abc999222/392133), 节点数量: `0`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `118`
-- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `10`
-- [wrfree/free](https://github.com/wrfree/free), 节点数量: `22`
-- [ThekingMX1998/free-v2ray-code](https://github.com/ThekingMX1998/free-v2ray-code), 节点数量: `0`
+- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `68`
+- [Galaxy8053/v2ray](https://github.com/Galaxy8053/v2ray), 节点数量: `0`
+- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `134`
+- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `145`
+- [wrfree/free](https://github.com/wrfree/free), 节点数量: `70`
+- [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish), 节点数量: `99`
 - [v2raydy/v2ray](https://github.com/v2raydy/v2ray), 节点数量: `125`
-- [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `17`
-- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `677`
+- [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `145`
+- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `517`
 
 ## 客户端选择
 ### 主流桌面客户端
@@ -439,14 +438,14 @@
 ## 机场推荐
 免费节点失效太快，推荐一些性价比高的机场应急使用。
 - [魔戒.net](https://www.mojie.cyou/#/register?code=sAbl0qtT)
-  - 按量计费机场，1元10G，10元130G
+  - 按量计费机场, 1¥10G, 10¥130G
   - 所有套餐均是一样的节点与一样的服务，所有套餐流量永不过期，用完为止，不限制客户端数量，最高可提供 2Gbps 峰值。
 - [大迅云](https://daxun.club/#/register?code=JPmAFPav)
-  - 最低月付 5元50G，购买 12 元及以上套餐免费领取奈飞 + 迪士尼 Plus 共享号
+  - 最低月付 5¥50G, 购买 12¥ 及以上套餐免费领取奈飞 + 迪士尼 Plus 共享号
   - 原生IP负载均衡，流媒体解锁晚高峰油管秒开，主打性价比，有试用
-- [PeaceCloud](https://peachcloud.cc/#/register?code=sVwFqpTT)
-  - 最低月付 3元30G中转流量，6元100G
-  - 全线广州移动中转，另有 0.1 倍率直连线路 Azure/AWS，不解锁流媒体
+- [阿伟云](https://awslcn.xyz/#/register?code=8C18uZwl)
+  - 最低月付 1¥ 起, 9.99¥100G
+  - 无带宽速率限制，有流媒体解锁，香港 BGP 中继线路
 
 ## 仓库声明
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。

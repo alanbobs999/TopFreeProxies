@@ -3,7 +3,7 @@
     "id": 0,
     "remarks": "pojiezhiyuanjun/freev2",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0405.txt",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0409.txt",
     "enabled": true
   },
   {
@@ -78,9 +78,9 @@
   },
   {
     "id": 11,
-    "remarks": "git-yusteven/openit",
-    "site": "https://github.com/git-yusteven/openit",
-    "url": "https://raw.githubusercontent.com/git-yusteven/openit/main/pub/mattkaydiary.yaml|https://raw.githubusercontent.com/git-yusteven/openit/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/git-yusteven/openit/main/pub/jiang.yaml|https://raw.githubusercontent.com/git-yusteven/openit/main/pub/freenode.yaml|https://raw.githubusercontent.com/git-yusteven/openit/main/pub/bhqz.yaml",
+    "remarks": "yu-steven/openit",
+    "site": "https://github.com/yu-steven/openit",
+    "url": "https://raw.githubusercontent.com/yu-steven/openit/main/pub/mattkaydiary.yaml|https://raw.githubusercontent.com/yu-steven/openit/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/yu-steven/openit/main/pub/jiang.yaml|https://raw.githubusercontent.com/yu-steven/openit/main/pub/freenode.yaml|https://raw.githubusercontent.com/yu-steven/openit/main/pub/bhqz.yaml",
     "enabled": true
   },
   {
@@ -106,9 +106,9 @@
   },
   {
     "id": 15,
-    "remarks": "Thanos8053/v2ray",
-    "site": "https://github.com/Thanos8053/v2ray",
-    "url": "https://raw.githubusercontent.com/Thanos8053/v2ray/main/v2ray",
+    "remarks": "Galaxy8053/v2ray",
+    "site": "https://github.com/Galaxy8053/v2ray",
+    "url": "https://raw.githubusercontent.com/Galaxy8053/v2ray/main/v2ray",
     "enabled": true
   },
   {
@@ -116,7 +116,7 @@
     "remarks": "电报群分享:https://t.me/abc999222/392133",
     "site": "https://t.me/abc999222/392133",
     "url": "https://moons.team/api/v1/client/subscribe?token=f4a34eaaa048c37ea3b5df0d65473ad4",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 17,
