@@ -268,66 +268,6 @@ class sub_convert():
                 begin += 1
 
         url_list = []
-
-        for proxy in proxies_list: # 改名
-            if format_name_enabled:
-                emoji = {
-                    'US': '🇺🇸','HK': '🇭🇰', 'SG': '🇸🇬',
-                    'JP': '🇯🇵', 'TW': '🇹🇼', 'CA': '🇨🇦',
-                    'GB': '🇬🇧', 'CN': '🇨🇳', 'NL': '🇳🇱',
-                    'TH': '🇹🇭', 'BE': '🇧🇪', 'IN': '🇮🇳',
-                    'IT': '🇮🇹', 'PE': '🇵🇪', 'RO': '🇷🇴',
-                    'AU': '🇦🇺', 'DE': '🇩🇪', 'RU': '🇷🇺',
-                    'KR': '🇰🇷', 'DK': '🇩🇰', 'PT': '🇵🇹',
-                    'CY': '🇨🇾', 'ES': '🇪🇸', 'RELAY': '🏁',
-                    'NOWHERE': '🇦🇶',
-                }
-
-                server = proxy['server']
-                if server.replace('.','').isdigit():
-                    ip = server
-                else:
-                    try:
-                        ip = socket.gethostbyname(server) # https://cloud.tencent.com/developer/article/1569841
-                    except Exception:
-                        ip = server
-
-                with geoip2.database.Reader('./utils/Country.mmdb') as ip_reader:
-                    try:
-                        response = ip_reader.country(ip)
-                        country_code = response.country.iso_code
-                    except Exception:
-                        ip = '0.0.0.0'
-                        country_code = 'NOWHERE'
-
-                if country_code == 'CLOUDFLARE':
-                    country_code = 'RELAY'
-                elif country_code == 'PRIVATE':
-                    country_code = 'RELAY'
-                elif country_code == 'CN':
-                    country_code = 'HK'
-
-                if country_code in emoji:
-                    name_emoji = emoji[country_code]
-                else:
-                    name_emoji = emoji['NOWHERE']
-
-                proxy_index = proxies_list.index(proxy)
-                if len(proxies_list) > 999:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>4d}'
-                elif len(proxies_list) < 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>3d}'
-                elif len(proxies_list) < 99:
-                    proxy['name'] = f'{name_emoji}{country_code}-{ip}-{proxy_index:0>2d}'
-
-                if proxy['server'] != '127.0.0.1':
-                    proxy_str = str(proxy)
-                    url_list.append(proxy_str)
-            elif format_name_enabled == False:
-                if proxy['server'] != '127.0.0.1':
-                    proxy_str = str(proxy)
-                    url_list.append(proxy_str)
-
         yaml_content_dic = {'proxies': url_list}
         yaml_content_raw = yaml.dump(yaml_content_dic, default_flow_style=False, sort_keys=False, allow_unicode=True, width=750, indent=2) # yaml.dump 显示中文方法 https://blog.csdn.net/weixin_41548578/article/details/90651464 yaml.dump 各种参数 https://blog.csdn.net/swinfans/article/details/88770119
         yaml_content = yaml_content_raw.replace('\'', '').replace('False', 'false').replace('True', 'true')
